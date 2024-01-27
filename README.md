@@ -11,7 +11,7 @@ https://d35p3rw45jxsw.cloudfront.net/
 - [❌] Server side `redirect` using `next/navigation`
 
 ## Vercel 
-
+https://open-next-streaming.vercel.app/test
 
 - [✅] HTML <a> tag
 - [✅] Client side `push` using `useRouter` from `next/navigation`
