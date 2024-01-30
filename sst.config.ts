@@ -4,7 +4,7 @@ import { NextjsSite } from "sst/constructs";
 export default {
   config(_input) {
     return {
-      name: "open-next-streaming",
+      name: "open-next-v3-streaming",
       region: "eu-west-2",
     };
   },
@@ -13,6 +13,9 @@ export default {
       const site = new NextjsSite(stack, "site", {
         experimental: {
           streaming: true
+        },
+        openNext: {
+          buildOutputPath: '.open-next'
         }
       });
 
